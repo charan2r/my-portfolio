@@ -3,6 +3,7 @@ import Healthcare from '../assets/healthcare.jpg';
 import Todo from '../assets/todo.jpg';
 import Tourist from '../assets/tourist.jpg';
 import ProjectInfo from './ProjectInfo';
+import Space from '../assets/spacer.png';
 
 const Projects = () => {
 
@@ -14,6 +15,7 @@ const Projects = () => {
                 <ProjectInfo projectphoto={Form} projectname='FormEditor' />
                 <ProjectInfo projectphoto={Todo} projectname='ToDo' />
                 <ProjectInfo projectphoto={Tourist} projectname='TouristGuide'/>
+                <ProjectInfo projectphoto={Space} projectname='Space' />
             </div>
                 
         </div>

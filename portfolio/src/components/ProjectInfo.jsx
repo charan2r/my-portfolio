@@ -17,7 +17,10 @@ const ProjectInfo = ({projectname, projectphoto}) => {
 
         TouristGuidedescription: "This is a simple tourist guide website developed using HTML, CSS, and JavaScript.",
         TouristGuidegithub:"https://github.com/charan2r/Travel-Website.git",
-        TouristGuidewebsite:"https://charan2r.github.io/",
+
+        Spacedescription: "This is a simple landing page for a space website developed using next js.",
+        Spacegithub:"https://github.com/charan2r/space-page.git",
+        Spacewebsite:"https://space-page-rust.vercel.app/",
     }
 
     let show ='';
