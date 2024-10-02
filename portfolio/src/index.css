@@ -387,7 +387,7 @@ b{
   padding: 75px 0;
   letter-spacing: 0.4px;
   font-size: 36px;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .project{
@@ -395,6 +395,7 @@ b{
   flex-wrap: wrap;
   justify-content: center;
   margin: 25px 5%;
+  margin-top: 10px;
 }
 
 .projectBox{
@@ -513,3 +514,99 @@ footer h4{
     height: 110px;
   }
 }
+
+/* CONTACT */ 
+
+.ContactPage {
+  padding: 50px 10%;
+  background-color: #031926;
+  color: #E7E7E7;
+}
+
+.ContactHeading h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  color: #9067C6;
+  text-align: center;
+}
+
+.ContactHeading p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ContactInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.ContactDetails, .ContactForm {
+  width: 48%;
+}
+
+.ContactItem {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.ContactItem .icon {
+  font-size: 24px;
+  color: #9067C6;
+  margin-right: 10px;
+}
+
+.ContactItem .text h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.ContactForm .formGroup {
+  margin-bottom: 20px;
+}
+
+.ContactForm input, .ContactForm textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #431f47;
+  border-radius: 5px;
+  background-color: #01111a;
+  color: #E7E7E7;
+  font-size: 16px;
+}
+
+.ContactForm textarea {
+  height: 120px;
+}
+
+.submitButton {
+  background-color: #9067C6;
+  color: #E7E7E7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #431f47;
+}
+
+@media (max-width: 800px) {
+  .ContactDetails, .ContactForm {
+      width: 100%;
+  }
+}
+
+
+
+
+
+
