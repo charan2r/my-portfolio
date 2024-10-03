@@ -1,9 +1,10 @@
 //import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import {AiOutlineHome} from "react-icons/ai";
-import {BsPerson, BsCodeSlash} from "react-icons/bs";
-import { IoIosContact } from "react-icons/io";
+import { GrUser } from "react-icons/gr";
+import { VscWorkspaceTrusted } from "react-icons/vsc";
+import { RiContactsLine } from "react-icons/ri";
+import { IoHomeOutline } from "react-icons/io5";
 
 
 const Nav = () => {
@@ -42,7 +43,7 @@ const Nav = () => {
   return (
     <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
  
-        <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>CR</h1>
+        <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>Charan Romi</h1>
 
         <div className='Hamburger' onClick={showMenu}>
             <span className='bar'></span>
@@ -51,10 +52,10 @@ const Nav = () => {
         </div>
 
         <ul className='NavbarLinks'>
-            <li onClick={hideMenu}><Link to="/"><AiOutlineHome/> Home</Link></li>
-            <li onClick={hideMenu}><Link to="/About"><BsPerson/> About</Link></li>
-            <li onClick={hideMenu}><Link to="/Projects"><BsCodeSlash/> Projects</Link></li>
-            <li onClick={hideMenu}><Link to="/Contact"><IoIosContact/> Contact</Link></li>
+            <li onClick={hideMenu}><Link to="/"><IoHomeOutline/> Home</Link></li>
+            <li onClick={hideMenu}><Link to="/About"><GrUser/> About</Link></li>
+            <li onClick={hideMenu}><Link to="/Projects"><VscWorkspaceTrusted/> Projects</Link></li>
+            <li onClick={hideMenu}><Link to="/Contact"><RiContactsLine/> Contact</Link></li>
         </ul>
         
     </nav>

@@ -21,6 +21,10 @@ const ProjectInfo = ({projectname, projectphoto}) => {
         Spacedescription: "This is a simple landing page for a space website developed using next js.",
         Spacegithub:"https://github.com/charan2r/space-page.git",
         Spacewebsite:"https://space-page-rust.vercel.app/",
+
+        Calculatordescription: "This is a simple calculator and a age calculator developed using React.",
+        Calculatorgithub:'https://github.com/charan2r/calculator-app.git',
+        Calculatorwebsite:'https://calculator-app-chi-ruby.vercel.app/',
     }
 
     let show ='';
