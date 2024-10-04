@@ -5,18 +5,12 @@ import {CgFileDocument} from "react-icons/cg";
 const ProjectInfo = ({projectname, projectphoto}) => {
 
     const description ={
-        Healthcaredescription: "This is a full-stack healthcare management system developed using HTML, CSS, JavaScript, PHP, and MySQL.",
+        Healthcaredescription: "A full-stack healthcare management system developed using HTML, CSS, JavaScript, PHP, and MySQL.",
         Healthcaregithub:"https://github.com/charan2r/Healthcare-Management.git",
 
         ToDodescription: "This is a full-stack to-do app created using HTML5, Tailwind CSS and JavaScript implementing features like crud operations, user authentication,task expiration, and task searching.",
         ToDogithub:"https://github.com/charan2r/todo.git",
 
-        FormEditordescription: "This is a landing page for a form editor developed using react.",
-        FormEditorgithub:"https://github.com/charan2r/form-editor.git",
-        FormEditorwebsite:"https://form-editor-ui.vercel.app/",
-
-        TouristGuidedescription: "This is a simple tourist guide website developed using HTML, CSS, and JavaScript.",
-        TouristGuidegithub:"https://github.com/charan2r/Travel-Website.git",
 
         Spacedescription: "This is a simple landing page for a space website developed using next js.",
         Spacegithub:"https://github.com/charan2r/space-page.git",

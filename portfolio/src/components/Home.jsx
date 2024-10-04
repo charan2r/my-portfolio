@@ -5,6 +5,7 @@ import Tilt from "react-parallax-tilt";
 import Gamer from "../assets/gamer.jpg";
 import Type from "./Type";
 import { IoLogoGameControllerB } from "react-icons/io";
+import CV from "../assets/Charan_CV.pdf";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <h1>Hello There!</h1>
             <h1>I am <b>Charan Romi</b></h1>
             <Type/>
+            <a href={CV} download='Charan_CV.pdf' className="downloadCV">Download CV</a>
               
           </div>
   

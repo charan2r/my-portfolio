@@ -2,26 +2,13 @@ import Skills from './Skills';
 import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react";
 import Coding from '../lotties/coding.json';
-import { useState } from 'react';
-import { BsDownload } from "react-icons/bs";
-import pdf from "../assets/Charan_CV.pdf";
-import { Document, Page, pdfjs } from 'react-pdf';
+//import { useState } from 'react';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const About = () => {
-  const [wid, setwid] = useState(window.innerWidth);
-  const [error, setError] = useState(null);
-
-  const handleResize = () => {
-    setwid(window.innerWidth);
-  };
-
-  window.addEventListener("load", handleResize);
-  window.addEventListener("resize", handleResize);
-
+  
   return (
     <>
       <div className='AboutPage'>
@@ -47,53 +34,35 @@ const About = () => {
         </div>
       </div>
       
-      <h1 className='SkillsHeading'>Professional Skillset</h1>
+      <h1 className='SkillsHeading'>Technical Skills</h1>
       <div className='skills'>
         
-        <Skills skill='HTML'/>
+        <Skills skill='HTML5'/>
+        <Skills skill='CSS3'/>
+        <Skills skill='Bootstrap'/>
         <Skills skill='Tailwind CSS'/>
         <Skills skill='JavaScript'/>
+        <Skills skill='TypeScript'/>
         <Skills skill='React'/>
-        <Skills skill='NodeJS'/>
-        <Skills skill='ExpressJS'/>
+        <Skills skill='NextJs'/>
+        <Skills skill='NodeJs'/>
+        <Skills skill='ExpressJs'/>
         <Skills skill='MongoDB'/>
         <Skills skill='MySQL'/>
         <Skills skill='PostgreSQL'/>
         <Skills skill='Postman'/>
-        <Skills skill='Vercel'/>
         <Skills skill='Java'/>
         <Skills skill='Python'/>
-        <Skills skill='Python Django'/>
+        <Skills skill='Django'/>
         <Skills skill='Prisma ORM'/>
-        <Skills skill='PHP Laravel'/>
+        <Skills skill='Laravel'/>
         <Skills skill='Github'/>
+        <Skills skill='Git'/>
         <Skills skill='Figma'/>
 
         
       </div>
 
-      <div className='ResumePage'>
-        <Document 
-          file={pdf} 
-          className="resumeview"
-          onLoadError={(error) => setError(error)}
-        >
-          {!error ? (
-            <Page 
-              pageNumber={1} 
-              scale={wid < 700 ? (wid > 475 ? 0.7 : 0.5) : 1} 
-            />
-          ) : (
-            <p>Download</p>
-          )}
-        </Document>
-
-        <a href={pdf} target='_blank' download="Charan's Resume">
-          <button className='downloadCV' type='button'>
-            <h3><BsDownload />&nbsp; Download CV</h3>
-          </button>
-        </a>
-      </div>
     </>
   );
 };
