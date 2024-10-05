@@ -16,7 +16,7 @@ const ProjectInfo = ({projectname, projectphoto}) => {
         Spacegithub:"https://github.com/charan2r/space-page.git",
         Spacewebsite:"https://space-page-rust.vercel.app/",
 
-        Calculatordescription: "In this project I have created a simple calculator and a age calculator developed using React.",
+        Calculatordescription: "In this project I have created a simple calculator and a age calculator using React.",
         Calculatorgithub:'https://github.com/charan2r/calculator-app.git',
         Calculatorwebsite:'https://calculator-app-chi-ruby.vercel.app/',
     }
