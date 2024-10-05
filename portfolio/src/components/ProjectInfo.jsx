@@ -8,7 +8,7 @@ const ProjectInfo = ({projectname, projectphoto}) => {
         Healthcaredescription: "A full-stack healthcare management system developed using HTML, CSS, JavaScript, PHP, and MySQL.",
         Healthcaregithub:"https://github.com/charan2r/Healthcare-Management.git",
 
-        ToDodescription: "This is a full-stack to-do app created using HTML5, Tailwind CSS and JavaScript implementing features like crud operations, user authentication,task expiration, and task searching.",
+        ToDodescription: "This is a full-stack to-do app created using HTML5, Tailwind CSS, JavaScript, Node js, express and sqlite implementing features like crud operations, user authentication,task expiration, and task searching.",
         ToDogithub:"https://github.com/charan2r/todo.git",
 
 
@@ -16,7 +16,7 @@ const ProjectInfo = ({projectname, projectphoto}) => {
         Spacegithub:"https://github.com/charan2r/space-page.git",
         Spacewebsite:"https://space-page-rust.vercel.app/",
 
-        Calculatordescription: "This is a simple calculator and a age calculator developed using React.",
+        Calculatordescription: "In this project I have created a simple calculator and a age calculator developed using React.",
         Calculatorgithub:'https://github.com/charan2r/calculator-app.git',
         Calculatorwebsite:'https://calculator-app-chi-ruby.vercel.app/',
     }

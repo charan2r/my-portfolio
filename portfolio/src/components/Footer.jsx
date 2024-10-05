@@ -9,7 +9,7 @@ const Footer = () => {
             <h4>Copyright &copy; 2024 CR</h4>
             <div className="footerLinks">
                 <a href="https://github.com/charan2r" ><FaGithub/></a>
-                <a href="www.linkedin.com/in/charan-romi-b87460222" ><FaLinkedin/></a>
+                <a href="https://linkedin.com/in/charan-romi-b87460222" ><FaLinkedin/></a>
                 <a href='mailTo:charanromi325@gmail.com' ><GrMail/></a>
             </div>          
         </footer>
