@@ -12,9 +12,8 @@ const ProjectInfo = ({projectname, projectphoto}) => {
         ToDogithub:"https://github.com/charan2r/todo.git",
 
 
-        Spacedescription: "This is a simple landing page for a space website developed using next js.",
-        Spacegithub:"https://github.com/charan2r/space-page.git",
-        Spacewebsite:"https://space-page-rust.vercel.app/",
+        Spacedescription: "This is a simple landing page for a space website with user authentication developed using MERN stack.",
+        Spacegithub:"https://github.com/charan2r/authentication.git",
 
         Calculatordescription: "In this project I have created a simple calculator and a age calculator using React.",
         Calculatorgithub:'https://github.com/charan2r/calculator-app.git',

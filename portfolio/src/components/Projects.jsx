@@ -1,7 +1,7 @@
 import Healthcare from '../assets/healthcare.jpg';
 import Todo from '../assets/todo.jpg';
 import ProjectInfo from './ProjectInfo';
-import Space from '../assets/spacer.png';
+import Space from '../assets/space.png';
 import Calculator from '../assets/calculator.png';
 
 const Projects = () => {
