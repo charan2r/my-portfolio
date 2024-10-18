@@ -18,6 +18,10 @@ const ProjectInfo = ({projectname, projectphoto}) => {
         Calculatordescription: "In this project I have created a simple calculator and a age calculator using React.",
         Calculatorgithub:'https://github.com/charan2r/calculator-app.git',
         Calculatorwebsite:'https://calculator-app-chi-ruby.vercel.app/',
+
+        ImageToTextdescription: "Image to Text converter app developed using React and Tessaract.js.",
+        ImageToTextgithub:"https://github.com/charan2r/converter.git",
+        ImageToTextwebsite:"https://image-to-text-converter-liart.vercel.app/",
     }
 
     let show ='';
