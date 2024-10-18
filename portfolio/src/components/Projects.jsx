@@ -3,7 +3,7 @@ import Todo from '../assets/todo.jpg';
 import ProjectInfo from './ProjectInfo';
 import Space from '../assets/space.png';
 import Calculator from '../assets/calculator.png';
-import ImageToText from '../assets/converter.jpg';
+import ImageToText from '../assets/converter.png';
 
 const Projects = () => {
 
