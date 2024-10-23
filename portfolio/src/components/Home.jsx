@@ -1,8 +1,10 @@
 //import React from "react";
-import Lottie from "lottie-react";
-import codeboy from "../lotties/coding-boy.json";
+//import Lottie from "lottie-react";
+//import codeboy from "../lotties/coding-boy.json";
 import Tilt from "react-parallax-tilt";
 import Gamer from "../assets/gamer.jpg";
+import Charan from "../assets/charan.jpg";
+//import CharanR from "../assets/charanr.png";
 import Type from "./Type";
 import { IoLogoGameControllerB } from "react-icons/io";
 import CV from "../assets/Charan_CV.pdf";
@@ -20,12 +22,13 @@ const Home = () => {
             <a href={CV} download='Charan_CV.pdf' className="downloadCV">Download CV</a>
               
           </div>
+          <img src={Charan} alt="new" className="illustration"/>
   
-          <Lottie 
+          {/*<Lottie 
             className="illustration" 
             animationData={codeboy} 
             loop={true} 
-          />
+          />*/}
           
         </div>
   
