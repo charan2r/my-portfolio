@@ -9,7 +9,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import './App.css';
+import './index.css';
 
 function App() {
   const [loading, setLoading] = useState(true);

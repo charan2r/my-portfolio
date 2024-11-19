@@ -10,6 +10,7 @@ import { IoLogoGameControllerB } from "react-icons/io";
 import CV from "../assets/Charan_CV.pdf";
 
 
+
 const Home = () => {
     return (
     <div >
@@ -48,6 +49,7 @@ const Home = () => {
             <img className='Avatar' src={Gamer} alt="" />
           </Tilt>
         </div>
+        
     </div>
     )
  }

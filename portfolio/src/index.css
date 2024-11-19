@@ -4,12 +4,7 @@
   scroll-behavior: smooth;
 }
 
-#root{
-  min-height: 100vh;
-  position: relative;
-  overflow-x: hidden;
-  -webkit-tap-highlight-color: transparent;
-}
+
 
 .loader{
   height: 100vh;
@@ -444,7 +439,6 @@ b{
   text-decoration: none;
   border-style: none;
 }
-
 
 
 
