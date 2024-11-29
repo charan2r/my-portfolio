@@ -59,6 +59,7 @@ const About = () => {
         <Skills skill='Github'/>
         <Skills skill='Git'/>
         <Skills skill='Figma'/>
+        <Skills skill='NestJs'/>
 
         
       </div>
