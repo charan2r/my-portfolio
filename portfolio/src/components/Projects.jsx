@@ -3,9 +3,36 @@ import Healthcare from '../assets/healthcare.jpg';
 import Todo from '../assets/todo.png';
 import Calculator from '../assets/calculator.png';
 import ImageToText from '../assets/converter.png';
+import Ecommerce from '../assets/e-commerce.png';
+import Logbook from '../assets/logbook.png';
+import Forms from '../assets/forms.png';
 
 const Projects = () => {
     const projectList = [
+        {
+            title: "E-commerce Site",
+            description:
+                "A full-stack healthcare management system designed to manage appointment bookings and improve disease awareness among people by giving information about diseases. Built using HTML, CSS, JavaScript, PHP, and MySQL, this project offers a user-friendly interface for both patients and healthcare providers. ",
+            github: "https://github.com/charan2r/e-commerce-site.git",
+            demo: "",
+            photo: Ecommerce,
+        },
+        {
+            title: "Digital Logbook",
+            description:
+                "Developed a system as a group project to track, review, and grade daily activities for students and mentors. My contributions included implementing a robust testing framework to enhance system reliability, creating a feedback component to improve mentor-student interactions, and building backend functionality for bulk report exports to streamline academic evaluations. ",
+            github: "",
+            demo: "",
+            photo: Logbook,
+        },
+        {
+            title: "Forms Management System",
+            description:
+                "Web application developed as a group project for organizations to create and customize form templates, streamlining the digitization of information collection. My contributions included designing customizable template components, building reliable APIs for user, organization, and template management in CRUD operations, and integrating JWT-based authentication to enhance platform security. ",
+            github: "",
+            demo: "",
+            photo: Forms,
+        },
         {
             title: "Healthcare Management System",
             description:
