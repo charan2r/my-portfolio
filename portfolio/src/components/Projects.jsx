@@ -45,7 +45,7 @@ const Projects = () => {
             title: "To-Do App",
             description:
                 "A full-stack to-do list application that allows users to manage their tasks efficiently. Developed using HTML5, Tailwind CSS, JavaScript, Node.js, Express, and SQLite, this app integrates essential features like user authentication, CRUD operations, task expiration notifications, and a search function for locating tasks. ",
-            github: "https://github.com/charan2r/todo.git",
+            github: "https://github.com/charan2r/todo-app.git",
             demo: "",
             photo: Todo,
         },
