@@ -13,7 +13,7 @@ const Projects = () => {
             title: "E-commerce Site",
             description:
                 "A full-stack healthcare management system designed to manage appointment bookings and improve disease awareness among people by giving information about diseases. Built using HTML, CSS, JavaScript, PHP, and MySQL, this project offers a user-friendly interface for both patients and healthcare providers. ",
-            github: "https://github.com/charan2r/e-commerce-site.git",
+            github: "",
             demo: "",
             photo: Ecommerce,
         },
