@@ -7,7 +7,7 @@ import Charan from "../assets/charan.jpg";
 //import CharanR from "../assets/charanr.png";
 import Type from "./Type";
 import { IoLogoGameControllerB } from "react-icons/io";
-import CV from "../assets/Charan_CV.pdf";
+import CV from "../assets/Charan_Romi_CV.pdf";
 
 
 
@@ -20,7 +20,7 @@ const Home = () => {
             <h1>Hello There!</h1>
             <h1>I am <b>Charan Romi</b></h1>
             <Type/>
-            <a href={CV} download='Charan_CV.pdf' className="downloadCV">Download CV</a>
+            <a href={CV} download='Charan_Romi_CV.pdf' className="downloadCV">Download CV</a>
               
           </div>
           <img src={Charan} alt="new" className="illustration"/>

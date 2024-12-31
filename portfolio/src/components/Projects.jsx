@@ -3,7 +3,7 @@ import Healthcare from '../assets/healthcare.jpg';
 import Todo from '../assets/todo.png';
 import Calculator from '../assets/calculator.png';
 import ImageToText from '../assets/converter.png';
-import Ecommerce from '../assets/e-commerce.png';
+import Ecommerce from '../assets/ecommerce.png';
 import Logbook from '../assets/logbook.png';
 import Forms from '../assets/forms.png';
 
@@ -13,7 +13,7 @@ const Projects = () => {
             title: "E-commerce Site",
             description:
                 "A full-stack healthcare management system designed to manage appointment bookings and improve disease awareness among people by giving information about diseases. Built using HTML, CSS, JavaScript, PHP, and MySQL, this project offers a user-friendly interface for both patients and healthcare providers. ",
-            github: "",
+            github: "https://github.com/charan2r/e-commerce-site.git",
             demo: "",
             photo: Ecommerce,
         },
