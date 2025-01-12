@@ -15,10 +15,10 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Get to <b>know</b> me</h1>
           <p>
-            Hi, my name is <b>Charan Romi</b> and I am from Matara, Sri Lanka.
-            I am a <b>Full-Stack web developer</b> and a third year college student pursuing <b>BSc in Software Engineering</b>.<br /><br />
+            Hi, I am <b>Charan Romi</b> and I am from Sri Lanka.
+            I am a <b>Web developer</b> and an undergraduate pursuing <b>BSc in Software Engineering</b>.<br /><br />
 
-            I am passionate about crafting unique projects with visually appealing designs. You can explore some of my creations in the projects section.<br /><br />
+            I am passionate about developing unique projects with visually appealing designs. You can explore some of my work in the projects section.<br /><br />
             I am always open to new opportunities for collaboration or work where I can make an impact and continue growing. Do not hesitate to reach out and connect with me!<br />
           </p>
         </div>
@@ -39,7 +39,6 @@ const About = () => {
         
         <Skills skill='HTML5'/>
         <Skills skill='CSS3'/>
-        <Skills skill='Bootstrap'/>
         <Skills skill='Tailwind CSS'/>
         <Skills skill='JavaScript'/>
         <Skills skill='TypeScript'/>
@@ -53,12 +52,10 @@ const About = () => {
         <Skills skill='Postman'/>
         <Skills skill='Java'/>
         <Skills skill='Python'/>
-        <Skills skill='Django'/>
         <Skills skill='Prisma ORM'/>
+        <Skills skill='PHP'/>
         <Skills skill='Laravel'/>
-        <Skills skill='Github'/>
         <Skills skill='Git'/>
-        <Skills skill='Figma'/>
         <Skills skill='NestJs'/>
 
         

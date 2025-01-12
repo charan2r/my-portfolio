@@ -6,6 +6,7 @@ import ImageToText from '../assets/converter.png';
 import Ecommerce from '../assets/ecommerce.png';
 import Logbook from '../assets/logbook.png';
 import Forms from '../assets/forms.png';
+import User from '../assets/user.png';
 
 const Projects = () => {
     const projectList = [
@@ -48,6 +49,13 @@ const Projects = () => {
             github: "https://github.com/charan2r/todo-app.git",
             demo: "",
             photo: Todo,
+        },
+        {
+            title: "User Authentication System",
+            description:
+                "A simple user authentication system that allows users to register, log in, and log out. After login, user is directed to a simple landing page. The system is built using MERN stack. It includes features like password hashing, JWT-based authentication, and user session management. ",
+            github: "https://github.com/charan2r/authentication.git",
+            photo: User,
         },
         {
             title: "Calculator App",

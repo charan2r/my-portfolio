@@ -39,9 +39,8 @@ const Home = () => {
             <p>
             I love transforming initial concepts into fully functional websites or products that make a real difference. 
             I am driven by the desire to take on projects that push me to grow as a developer and allow me to create work that I can truly take pride in.<br /><br />
-            I have good knowledge in <b>Java</b> and  <b>Python</b> and am working on  
+            Currently I  and am working on  
             projects in <b>Full-Stack</b> development.<br />
-            I plan to learn <b>cloud technologies</b> in the near future. <br /><br />
             Also, I love <b>playing PC games</b> <IoLogoGameControllerB style={{scale:"1.5", rotate:"15deg"}}/>   
           </p>
           </div>
