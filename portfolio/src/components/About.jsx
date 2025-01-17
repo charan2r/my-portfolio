@@ -16,7 +16,7 @@ const About = () => {
           <h1 className='AboutTextHeading'>Get to <b>know</b> me</h1>
           <p>
             Hi, I am <b>Charan Romi</b> and I am from Sri Lanka.
-            I am a <b>Web developer</b> and an undergraduate pursuing <b>BSc in Software Engineering</b>.<br /><br />
+            I am an undergraduate pursuing <b>BSc in Software Engineering</b>.<br /><br />
 
             I am passionate about developing unique projects with visually appealing designs. You can explore some of my work in the projects section.<br /><br />
             I am always open to new opportunities for collaboration or work where I can make an impact and continue growing. Do not hesitate to reach out and connect with me!<br />
