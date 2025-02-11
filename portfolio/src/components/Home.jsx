@@ -1,10 +1,6 @@
-//import React from "react";
-//import Lottie from "lottie-react";
-//import codeboy from "../lotties/coding-boy.json";
 import Tilt from "react-parallax-tilt";
 import Gamer from "../assets/gamer.jpg";
 import Charan from "../assets/charan.jpg";
-//import CharanR from "../assets/charanr.png";
 import Type from "./Type";
 import { IoLogoGameControllerB } from "react-icons/io";
 import CV from "../assets/Charan_Romi_CV.pdf";
@@ -24,13 +20,7 @@ const Home = () => {
               
           </div>
           <img src={Charan} alt="new" className="illustration"/>
-  
-          {/*<Lottie 
-            className="illustration" 
-            animationData={codeboy} 
-            loop={true} 
-          />*/}
-          
+
         </div>
   
         <div className='AboutPage'>

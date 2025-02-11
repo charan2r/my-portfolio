@@ -2,7 +2,6 @@ import Skills from './Skills';
 import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react";
 import Coding from '../lotties/coding.json';
-//import { useState } from 'react';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 
