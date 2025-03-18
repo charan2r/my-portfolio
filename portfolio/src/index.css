@@ -450,6 +450,34 @@ b{
   border-style: none;
 }
 
+.projectButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.projectButton a{
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20%;
+  margin: 25px 3% 0;
+  border-radius: 5px;
+  background-color: #431f47;
+  color: #E7E7E7;
+  height: 30px;
+  cursor:pointer;
+  text-decoration: none;
+  border-style: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.projectButton a:hover{
+  background-color: #623f8f;
+  transform: scale(1.05);
+}
 
 
 /* FOOTER */
