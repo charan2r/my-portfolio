@@ -1,6 +1,7 @@
 import Tilt from "react-parallax-tilt";
 import Gamer from "../assets/gamer.jpg";
-import Charan from "../assets/charan.jpg";
+//import Charan from "../assets/charan.jpg";
+import Charan2 from "../assets/charan2.jpg";
 import Type from "./Type";
 import { IoLogoGameControllerB } from "react-icons/io";
 import CV from "../assets/Charan_Romi_CV.pdf";
@@ -19,7 +20,7 @@ const Home = () => {
             <a href={CV} download='Charan_Romi_CV.pdf' className="downloadCV">Download CV</a>
               
           </div>
-          <img src={Charan} alt="new" className="illustration"/>
+          <img src={Charan2} alt="new" className="illustration"/>
 
         </div>
   
