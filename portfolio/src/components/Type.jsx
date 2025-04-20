@@ -5,7 +5,7 @@ const Type = () => {
         <div className="TypeEffect">
             <TypeWriter
                 options={{
-                    strings: ['Software Developer', 'Full-Stack Developer'],
+                    strings: ['Software Developer', 'Web Developer'],
                     autoStart: true,
                     loop: true,
                     delay: 70,

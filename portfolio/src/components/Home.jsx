@@ -1,7 +1,7 @@
 import Tilt from "react-parallax-tilt";
 import Gamer from "../assets/gamer.jpg";
-//import Charan from "../assets/charan.jpg";
-import Charan2 from "../assets/charan2.jpg";
+import Charan from "../assets/charan.jpg";
+//import Charan2 from "../assets/charan2.jpg";
 import Type from "./Type";
 import { IoLogoGameControllerB } from "react-icons/io";
 import CV from "../assets/Charan_Romi_CV.pdf";
@@ -20,7 +20,7 @@ const Home = () => {
             <a href={CV} download='Charan_Romi_CV.pdf' className="downloadCV">Download CV</a>
               
           </div>
-          <img src={Charan2} alt="new" className="illustration"/>
+          <img src={Charan} alt="new" className="illustration"/>
 
         </div>
   
@@ -31,7 +31,7 @@ const Home = () => {
             I love transforming initial concepts into fully functional websites or products that make a real difference. 
             I am driven by the desire to take on projects that push me to grow as a developer and allow me to create work that I can truly take pride in.<br /><br />
             Currently I  and am working on  
-            projects in <b>Full-Stack</b> development.<br />
+            projects in <b>Web</b> development.<br />
             Also, I love <b>playing PC games</b> <IoLogoGameControllerB style={{scale:"1.5", rotate:"15deg"}}/>   
           </p>
           </div>

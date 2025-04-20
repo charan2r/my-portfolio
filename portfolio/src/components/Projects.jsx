@@ -3,6 +3,7 @@ import Healthcare from '../assets/healthcare.jpg';
 import Ecommerce from '../assets/ecommerce.png';
 import Logbook from '../assets/logbook.png';
 import Forms from '../assets/forms.png';
+import Space from '../assets/Space.png';
 
 const Projects = () => {
     const projectList = [
@@ -34,10 +35,18 @@ const Projects = () => {
             title: "Healthcare Management System",
             description:
                 "A healthcare management system designed to manage appointment bookings and improve disease awareness among people by giving information about diseases. Built using HTML, CSS, JavaScript, PHP, and MySQL, this project offers a user-friendly interface for both patients and healthcare providers. ",
-            github: "https://github.com/charan2r/Healthcare-Management.git",
+            github: " ",
             demo: "",
             photo: Healthcare,
         },
+        {
+            title: "Space Explorer",
+            description:
+                "A WordPress website exploring astronomy and space related topics, built with web design aesthetics. Demonstrates research skills, writing, and visual content creation. ",
+            github: " ",
+            demo: "https://spaceblog01.wordpress.com ",
+            photo: Space,
+        }
         
     ];
     
