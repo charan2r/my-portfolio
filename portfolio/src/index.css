@@ -222,8 +222,9 @@ b{
 }
 
 .illustration{
-  width: 470px;
-  height: 430px;
+  margin-top: 10px;
+  width: 480px;
+  height: 480px;
 }
 
 @media(max-width:900px){
